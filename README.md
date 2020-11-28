@@ -6,7 +6,8 @@ time and space complexity
 - It's a way for developers to describe how long an algorithm takes to run.  Developers need a way to compare the efficiences of different approaches to the same problem.
 
 - Question: Why can't we just say the actual amount of time?  
-- Answer: Becasue computers, laptops, and phones run at different speeds.
+- Answer: Becasue computers, laptops, and phones run at different speeds for various reasons (e.g., hardware, operating systems, data size, etc).
+- Three things Big O addresses: 1) how quickly the runtime grows relative to the input as the input gets arbitrarily large.
 
 import math    
 import random    
