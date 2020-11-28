@@ -1,6 +1,9 @@
 # time-space-complexity
 time and space complexity
 
+### What is Big O?
+
+- It's a way for developers to describe how long an algorithm takes to run.  Developers need a way to compaire the efficiences of different approaches to the same problem.
 
 import math    
 import random    
