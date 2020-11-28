@@ -7,7 +7,7 @@ time and space complexity
 
 - Question: Why can't we just say the actual amount of time?  
 - Answer: Becasue computers, laptops, and phones run at different speeds for various reasons (e.g., hardware, operating systems, data size, etc).
-- Three things Big O addresses: 1) how quickly the runtime grows relative to the input as the input gets arbitrarily large.
+- Three things Big O addresses: 1) how quickly the runtime grows 2) relative to the input 3) as the input gets arbitrarily large.
 
 import math    
 import random    
