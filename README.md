@@ -9,11 +9,16 @@ time and space complexity
 - Answer: Becasue computers, laptops, and phones run at different speeds for various reasons (e.g., hardware, operating systems, data size, etc).
 - Three things Big O addresses: 1) how quickly the runtime grows 2) relative to the input 3) as the input gets arbitrarily large.
 
+
+### Examples
+
 import math    
 import random    
 import time    
 from datetime import datetime    
 animals = ['Duck', 'Jackal', 'Hippo', 'Aardvark', 'Cat', 'Flamingo', 'Iguana', 'Giraffe', 'Elephant', 'Bear']
+
+
 ###
 # O(1)
 ###
