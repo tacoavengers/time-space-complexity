@@ -5,6 +5,9 @@ time and space complexity
 
 - It's a way for developers to describe how long an algorithm takes to run.  Developers need a way to compare the efficiences of different approaches to the same problem.
 
+- Question: Why can't we just say the actual amount of time?  
+- Answer: Becasue computers, laptops, and phones run at different speeds.
+
 import math    
 import random    
 import time    
