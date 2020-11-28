@@ -76,12 +76,14 @@ animals = ['Duck', 'Jackal', 'Hippo', 'Aardvark', 'Cat', 'Flamingo', 'Iguana', '
 
 #### Print a list of all possible animal pairs
 ```
-def printAnimalPairs():
+def printAnimalPairs(animals):
     num_operations = 0
     for animal1 in animals:
         for animal2 in animals:
             num_operations += 1
             print (f"{num_operations}: {animal1} - {animal2}")
+
+printAnimalPairs(animals)
 ```
 ###
 # O(n^3)
