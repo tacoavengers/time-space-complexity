@@ -98,12 +98,4 @@ def divider(n):
 
 print(divider(5))
 ```
-
-## Data Structures
-
-Data structures all have the same basic use cases: access, insert, delete, search
-
-### Linked Lists
-
-Linked lists store data in a linear way. There is order to it.    1--> 2--> 3--> 4
-Dictionairies don't have order.  
+ 
