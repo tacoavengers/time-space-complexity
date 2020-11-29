@@ -54,27 +54,7 @@ def hasAnimal(animal_name):
             return True
     return False
 ```
-##### Given the name of a animal,return the animal's index if that animal is in the list, -1 otherwise
-```
-def findAnimal(animal_name):
-    animal_index = 0
-    for animal in animals:
-        if animal == animal_name:
-            return animal_index
-        animal_index += 1
-    return -1
-```
 
-##### Shuffle the order of the stored animals
-```
-def shuffleAnimals():
-    num_animals = countAnimals()
-    for i in range(num_animals):
-        random_i = random.randrange(num_animals)
-        temp_storage = animals[i]
-        animals[i] = animals[random_i]
-        animals[random_i] = temp_storage
-```
 
 ###
 # O(n^2)
