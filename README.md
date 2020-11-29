@@ -99,23 +99,6 @@ def divider(n):
 print(divider(5))
 ```
 
+## Datastructures
 
 
-```
-###
-# O(n!)
-###
-# Given a list,return a list of all possible arrangements of list items
-```
-def getAllArrangements(l):
-    list_length = len(l)
-    if list_length <= 1:
-        return [l]
-    else:
-        arrangements = []
-        previousArrangements = getAllArrangements( l[1:] )
-        for previousArrangement in previousArrangements:
-            for i in range(len(previousArrangement) + 1):
-                arrangements.append( previousArrangement[i:] + [l[0]] + previousArrangement[:i] )
-        return arrangements
-```
