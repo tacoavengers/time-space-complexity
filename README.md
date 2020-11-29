@@ -87,36 +87,20 @@ def baz(n):
 print(baz(5))
 ```
 
+###
+# O(log n)
+###
+```
+def divider(n):
+  while n >= 1:
+    print(n)  # 0(1)
+    n = n/2   # 0(1)
 
-###
-# O(n^3)
-###
-#### Print a list of all possible animal triples
+print(divider(5))
 ```
-def printAnimalTriples():
-    num_operations = 0
-    for animal1 in animals:
-        for animal2 in animals:
-            for animal3 in animals:
-                num_operations += 1
-                print (f"{num_operations}: {animal1} - {animal2} - {animal3}")
-```
-###
-# O(2^n)
-###
-# Given a list, return a list of all possible combination of animals
-```
-def getListOfAnimalCombos(l):
-    list_length = len(l)
-    if list_length == 0:
-        return [ [] ]
-    else:
-        animalCombos = []
-        previousCombos = getListOfAnimalCombos( l[1:] )
-        for combo in previousCombos:
-            animalCombos.append( combo )
-            animalCombos.append( combo + [l[0]] )
-        return animalCombos
+
+
+
 ```
 ###
 # O(n!)
