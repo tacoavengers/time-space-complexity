@@ -99,6 +99,6 @@ def divider(n):
 print(divider(5))
 ```
 
-## Datastructures
+## Data Structures
 
 
