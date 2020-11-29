@@ -72,6 +72,22 @@ def printAnimalPairs(animals):
 
 printAnimalPairs(animals)
 ```
+
+###
+# O(n * sqrt(n))
+###
+```
+def baz(n):
+  s = 0
+  for i in range(n):
+    for j in range(int(sqrt(n))):
+      s += i * j
+  return s
+
+print(baz(5))
+```
+
+
 ###
 # O(n^3)
 ###
