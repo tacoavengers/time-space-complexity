@@ -11,13 +11,8 @@ time and space complexity
 
 
 ### Examples
-
-import math    
-import random    
-import time    
-from datetime import datetime    
+  
 animals = ['Duck', 'Jackal', 'Hippo', 'Aardvark', 'Cat', 'Flamingo', 'Iguana', 'Giraffe', 'Elephant', 'Bear']
-
 
 ###
 # O(1)
